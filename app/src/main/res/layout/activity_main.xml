@@ -16,10 +16,11 @@
     <SearchView
         android:id="@+id/searchView"
         android:layout_width="match_parent"
+        android:background="@color/cardview_light_background"
         android:layout_height="wrap_content"
+        android:iconifiedByDefault="false"
+        android:layout_marginTop="@dimen/places_autocomplete_search_bar_button_padding"
         android:layout_alignParentTop="true"
-        android:queryHint="Search location..." />
-
-
+        android:queryHint="Procurar produto..." />
 
 </RelativeLayout>
